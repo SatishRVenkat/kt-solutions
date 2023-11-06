@@ -1545,7 +1545,7 @@ p:last-child {
 }
 
 .navbar-area.is-sticky .techvio-nav .navbar-brand .black-logo {
-  display: block;
+  display: inline-block;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1849,6 +1849,7 @@ p:last-child {
 }
 
 .single-services-item {
+  min-height: 394px;
   position: relative;
   z-index: 1;
   display: block;
@@ -5044,4 +5045,25 @@ blockquote::after,
   font-weight: 400;
   letter-spacing: 0.3px;
   font-family: 'Catamaran', sans-serif;
+}
+
+span.title-name {
+  background: #FFF;
+    color: #0453a9;
+    font-weight: 700;
+    /* padding: 10px 25px; */
+    border-radius: 33px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.black-logo, .white-logo{
+  width: 27px;
+}
+
+a.navbar-brand {
+  /* border: 13px solid #0457b1; */
+    border-radius: 16px;
+    padding: 0px 30px;
 }
